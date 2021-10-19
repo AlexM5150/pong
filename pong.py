@@ -135,7 +135,7 @@ def main():
 
     left_paddle = Paddle(40, 160, 8, 40 * 2)
     right_paddle = Paddle(40, 160, 8, 920 - (40 * 3))
-    ball = Ball(30, [13, 13])
+    ball = Ball(30, [7, 7])
 
     while run.intro:
         for event in pygame.event.get():
